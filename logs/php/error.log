@@ -1,0 +1,20 @@
+[08-Feb-2021 19:57:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/olivier/Local/Underscores/app/public/wp-includes/update.php on line 408
+[08-Feb-2021 19:57:00 UTC] PHP Stack trace:
+[08-Feb-2021 19:57:00 UTC] PHP   1. {main}() /Users/olivier/Local/Underscores/app/public/wp-admin/update.php:0
+[08-Feb-2021 19:57:00 UTC] PHP   2. Theme_Upgrader->install() /Users/olivier/Local/Underscores/app/public/wp-admin/update.php:314
+[08-Feb-2021 19:57:00 UTC] PHP   3. Theme_Upgrader->run() /Users/olivier/Local/Underscores/app/public/wp-admin/includes/class-theme-upgrader.php:250
+[08-Feb-2021 19:57:00 UTC] PHP   4. do_action() /Users/olivier/Local/Underscores/app/public/wp-admin/includes/class-wp-upgrader.php:847
+[08-Feb-2021 19:57:00 UTC] PHP   5. WP_Hook->do_action() /Users/olivier/Local/Underscores/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 19:57:00 UTC] PHP   6. WP_Hook->apply_filters() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 19:57:00 UTC] PHP   7. wp_update_plugins() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:285
+[08-Feb-2021 19:57:00 UTC] PHP   8. trigger_error() /Users/olivier/Local/Underscores/app/public/wp-includes/update.php:408
+[08-Feb-2021 19:57:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/olivier/Local/Underscores/app/public/wp-includes/update.php on line 612
+[08-Feb-2021 19:57:03 UTC] PHP Stack trace:
+[08-Feb-2021 19:57:03 UTC] PHP   1. {main}() /Users/olivier/Local/Underscores/app/public/wp-admin/update.php:0
+[08-Feb-2021 19:57:03 UTC] PHP   2. Theme_Upgrader->install() /Users/olivier/Local/Underscores/app/public/wp-admin/update.php:314
+[08-Feb-2021 19:57:03 UTC] PHP   3. Theme_Upgrader->run() /Users/olivier/Local/Underscores/app/public/wp-admin/includes/class-theme-upgrader.php:250
+[08-Feb-2021 19:57:03 UTC] PHP   4. do_action() /Users/olivier/Local/Underscores/app/public/wp-admin/includes/class-wp-upgrader.php:847
+[08-Feb-2021 19:57:03 UTC] PHP   5. WP_Hook->do_action() /Users/olivier/Local/Underscores/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 19:57:03 UTC] PHP   6. WP_Hook->apply_filters() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 19:57:03 UTC] PHP   7. wp_update_themes() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:285
+[08-Feb-2021 19:57:03 UTC] PHP   8. trigger_error() /Users/olivier/Local/Underscores/app/public/wp-includes/update.php:612
