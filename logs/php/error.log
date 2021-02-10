@@ -18,3 +18,13 @@
 [08-Feb-2021 19:57:03 UTC] PHP   6. WP_Hook->apply_filters() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:311
 [08-Feb-2021 19:57:03 UTC] PHP   7. wp_update_themes() /Users/olivier/Local/Underscores/app/public/wp-includes/class-wp-hook.php:285
 [08-Feb-2021 19:57:03 UTC] PHP   8. trigger_error() /Users/olivier/Local/Underscores/app/public/wp-includes/update.php:612
+[10-Feb-2021 03:49:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/olivierraude/Local/Underscores/app/public/wp-admin/includes/plugin-install.php on line 183
+[10-Feb-2021 03:49:37 UTC] PHP Stack trace:
+[10-Feb-2021 03:49:37 UTC] PHP   1. {main}() /Users/olivierraude/Local/Underscores/app/public/wp-admin/plugin-install.php:0
+[10-Feb-2021 03:49:37 UTC] PHP   2. do_action() /Users/olivierraude/Local/Underscores/app/public/wp-admin/plugin-install.php:173
+[10-Feb-2021 03:49:37 UTC] PHP   3. WP_Hook->do_action() /Users/olivierraude/Local/Underscores/app/public/wp-includes/plugin.php:484
+[10-Feb-2021 03:49:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/olivierraude/Local/Underscores/app/public/wp-includes/class-wp-hook.php:311
+[10-Feb-2021 03:49:37 UTC] PHP   5. install_dashboard() /Users/olivierraude/Local/Underscores/app/public/wp-includes/class-wp-hook.php:287
+[10-Feb-2021 03:49:37 UTC] PHP   6. install_popular_tags() /Users/olivierraude/Local/Underscores/app/public/wp-admin/includes/plugin-install.php:285
+[10-Feb-2021 03:49:37 UTC] PHP   7. plugins_api() /Users/olivierraude/Local/Underscores/app/public/wp-admin/includes/plugin-install.php:252
+[10-Feb-2021 03:49:37 UTC] PHP   8. trigger_error() /Users/olivierraude/Local/Underscores/app/public/wp-admin/includes/plugin-install.php:183

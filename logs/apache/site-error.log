@@ -1,0 +1,2 @@
+[Wed Feb 10 15:36:12.091185 2021] [proxy_fcgi:error] [pid 9099:tid 123145349713920] [client ::1:51524] AH01067: Failed to read FastCGI header, referer: http://localhost:10003/wp-admin/post.php?post=12&action=edit
+[Wed Feb 10 15:36:12.979669 2021] [proxy_fcgi:error] [pid 9099:tid 123145349713920] (70014)End of file found: [client ::1:51524] AH01075: Error dispatching request to :10003: , referer: http://localhost:10003/wp-admin/post.php?post=12&action=edit

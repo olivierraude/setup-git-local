@@ -78,7 +78,9 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-	margin: 0;
+	margin: 0 auto;
+	background: #aaa;
+	max-width: 1200px;
 }
 
 /**
@@ -86,6 +88,8 @@ body {
  */
 main {
 	display: block;
+	padding: 20px;
+	background: #aaa;
 }
 
 /**
